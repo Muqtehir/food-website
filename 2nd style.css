@@ -1,0 +1,46 @@
+body {
+  background-image: url(./Pictures/general/different-Nigerian-dishes-1170x750.jpeg);
+}
+
+.btn-primary-1 {
+  padding: 1rem 2rem;
+  border-radius: 70px;
+  font-weight: bolder;
+  font-size: 60px;
+  background-image: url(./Pictures/general/yoruba\ bac\ img.jpeg);
+}
+
+.btn-primary-2 {
+  padding: 1rem 2rem;
+  border-radius: 70px;
+  font-weight: bolder;
+  font-size: 60px;
+  background-image: url(./Pictures/general/hausa\ back\ img.webp);
+}
+
+.btn-primary-3 {
+  padding: 1rem 2rem;
+  border-radius: 70px;
+  font-weight: bolder;
+  font-size: 60px;
+  background-image: url(./Pictures/general/igbo\ bac\ img.webp);
+}
+
+.btn-primary-4 {
+  padding: 1rem 2rem;
+  border-radius: 70px;
+  font-weight: bolder;
+  font-size: 60px;
+  background-image: url(./Pictures/general/foreign\ bac\ img.jpg);
+}
+
+.btn-primary-heading {
+  display: grid;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  padding: 1rem 2rem;
+  border-radius: 70px;
+  font-weight: bolder;
+  font-size: 60px;
+}

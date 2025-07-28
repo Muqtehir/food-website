@@ -1,0 +1,128 @@
+body {
+}
+
+.head-dish {
+  text-align: center;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 50px;
+  font-weight: bolder;
+  background-image: url(./Pictures/yoruba\ bac\ img.jpeg);
+  color: chocolate;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.all-yoruba-dishes {
+  text-decoration: none;
+  text-transform: capitalize;
+  text-align-last: auto;
+  font-weight: bold;
+}
+
+.main-dishes {
+  padding: 4rem;
+  border-radius: 2rem;
+  text-align: center;
+  background: #fff8f0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  list-style: none;
+}
+
+.main-dishes li {
+  background: #ffe5d0;
+  border: 2px solid #d2691e;
+  border-radius: 1rem;
+  padding: 2rem 3rem;
+  margin: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #6b3e26;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+  transition: transform 0.2s;
+}
+
+.main-dishes li:hover {
+  transform: scale(1.05);
+  background: #ffd8b0;
+}
+.image-dish {
+}
+
+.head-dish-1,
+.head-dish-2,
+.head-dish-3,
+.head-dish-4,
+.head-dish-5,
+.head-dish-6,
+.head-dish-7 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+}
+
+.dish-name,
+.main-dish-1,
+.main-dish-2,
+.main-dish-3,
+.main-dish-4,
+.main-dish-5,
+.main-dish-6,
+.main-dish-7 {
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  list-style: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #6b3e26;
+  text-align: center;
+}
+
+.dishes-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  justify-items: center;
+  margin-bottom: 3rem;
+}
+
+.image-dish {
+  background: #fff8f0;
+  border: 2px solid #d2691e;
+  border-radius: 1rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  width: 100%;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+  transition: box-shadow 0.2s;
+}
+
+.image-dish img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 1024px) {
+  .dishes-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .dishes-row {
+    grid-template-columns: 1fr;
+  }
+}
